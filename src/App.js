@@ -15,8 +15,8 @@ function App() {
     else{
       // alert(amount);
       var options={
-        key : "rzp_test_3DZUcwQJ0ka5fz",
-        key_secret : "mrWlsvaruHnuiS5iwPDIpj26",
+        key : "", // here add your key from razorpay
+        key_secret : "", // here add your secret key from razorpay
         amount : price*100,
         currency : "INR",
         name : "NAVEENRAM",
